@@ -4,6 +4,7 @@
   - [Bash](/languages/bash/README.md)
   - [C](/languages/c/README.md)
   - [C#](/languages/csharp/README.md)
+  - [Clojure](/languages/clojure/README.md)
   - [Dart](/languages/dart/README.md)
   - [F#](/languages/fsharp/README.md)
   - [Go](/languages/go/README.md)
