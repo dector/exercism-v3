@@ -34,12 +34,12 @@ languages
 
 Exercise code should be clean, clear and "exemplary". It should not be
 *clever*. The testing library for this track shall be
-[FiveAm][https://github.com/sionescu/fiveam]
+[FiveAm][fiveam]
 
 Each file listed below links to an example file which can be used as a
 stub. 
 
-* [`<SLUG>`.asd][examples/exercise-stubs/slug.asd]
+* [`<SLUG>`.asd](examples/exercise-stubs/slug.asd)
 
     This is an ASDF system definition which should define two systems:
     `"<SLUG>"` and `"<SLUG>/test"`. The `test-op` of `"<SLUG>"` should
@@ -51,7 +51,7 @@ stub.
     The system `"<SLUG>/test"` should depend upon `"<SLUG>"` and
     `fiveam`. 
     
-* [package.lisp][examples/exercise-stubs/package.lisp]
+* [package.lisp](examples/exercise-stubs/package.lisp)
 
     This file should define two packages using `defpackage`:
     `#:<SLUG>` and `#:<SLUG>-test`.
@@ -63,7 +63,7 @@ stub.
     will run all the tests. It should `:use` only `:common-lisp`,
     `:<SLUG>` and `:fiveam`.
 
-* [`<SLUG>`-test.lisp][examples/exercise-stubs/slug-test.lisp]
+* [`<SLUG>`-test.lisp](examples/exercise-stubs/slug-test.lisp)
 
     This file will start with `(in-package :<SLUG>-test)`.
     
@@ -73,7 +73,7 @@ stub.
     defined here. (This function will be called from the `test-op` of
     the system.)
 
-* [`<SLUG>`.lisp][examples/exercise-stubs/slug.lisp]
+* [`<SLUG>`.lisp](examples/exercise-stubs/slug.lisp)
 
     This file will start with `(in-package :<SLUG>)`.
     
@@ -89,9 +89,9 @@ stub.
 
 ## Step 2: add common files
 
-    Please refer to the [how to implement a concept exercise
-    document][docs/maintainers/generic-how-to-implement-a-concept-exercise.md]
-    for information on the common files all tracks need.
+Please refer to the [how to implement a concept exercise
+document][how-to-implement-concept-exercise] for information on the
+common files all tracks need.
 
 ## Inspiration
 
@@ -105,6 +105,7 @@ languages that have already an exercise for that concept.
 If you have any questions regarding implementing this exercise, please
 post them as comments in the exercise's GitHub issue.
 
-[docs-concept-exercises]: ../concept-exercises.md
-[reference]: ../../reference/concepts/README.md
+[how-to-implement-concept-exercise]: ../../../docs/maintainers/generic-how-to-implement-a-concept-exercise.md
+[fiveam]: https://github.com/sionescu/fiveam
+[reference]: ../../../reference/concepts/README.md
 
